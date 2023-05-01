@@ -6,8 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node backend/server.js",
-    "server":"nodemon backend/server.js",
-    "dev": "concurrently \"npm start\" \"npm run frontend"
+    "dev": "nodemon backend/server.js"
   },
   "author": "",
   "license": "ISC",
@@ -19,5 +18,8 @@
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^7.0.3",
     "nodemailer": "^6.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
